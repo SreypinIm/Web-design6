@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+                <div class="sidebar">
+                    <h2><img src="linglee.png" alt="Logo"> Linglee</h2>
+                    <div class="menu-item active">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 21C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4ZM8 10H5V19H8V10ZM19 10H10V19H19V10ZM19 5H5V8H19V5Z"></path></svg>
+                         Dashboard
+                        <div class="menu-item active2"></div>
+                        </div>
+                    <div class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 5V19H20V7H11.5858L9.58579 5H4ZM12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5Z"></path></svg>             Classes</div>
+                    <div class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 4H7C5.89543 4 5 4.89543 5 6C5 7.10457 5.89543 8 7 8H21V21C21 21.5523 20.5523 22 20 22H7C4.79086 22 3 20.2091 3 18V6C3 3.79086 4.79086 2 7 2H20C20.5523 2 21 2.44772 21 3V4ZM5 18C5 19.1046 5.89543 20 7 20H19V10H7C6.27143 10 5.58835 9.80521 5 9.46487V18ZM20 7H7C6.44772 7 6 6.55228 6 6C6 5.44772 6.44772 5 7 5H20V7Z"></path></svg>
+                         Resources</div>
+                    <div class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 1V3H15V1H17V3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9ZM20 11H4V19H20V11ZM7 5H4V9H20V5H17V7H15V5H9V7H7V5Z"></path></svg>
+                         Learning plan</div>
+                    <div class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.29117 20.8242L2 22L3.17581 16.7088C2.42544 15.3056 2 13.7025 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C10.2975 22 8.6944 21.5746 7.29117 20.8242ZM7.58075 18.711L8.23428 19.0605C9.38248 19.6745 10.6655 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 13.3345 4.32549 14.6175 4.93949 15.7657L5.28896 16.4192L4.63416 19.3658L7.58075 18.711Z"></path></svg>
+                        <div class="status2"></div>
+                        <div class="status1">4</div>
+                        Chat</div>
+            
+                    <div class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M2 11.9998C2 11.1353 2.1097 10.2964 2.31595 9.49631C3.40622 9.55283 4.48848 9.01015 5.0718 7.99982C5.65467 6.99025 5.58406 5.78271 4.99121 4.86701C6.18354 3.69529 7.66832 2.82022 9.32603 2.36133C9.8222 3.33385 10.8333 3.99982 12 3.99982C13.1667 3.99982 14.1778 3.33385 14.674 2.36133C16.3317 2.82022 17.8165 3.69529 19.0088 4.86701C18.4159 5.78271 18.3453 6.99025 18.9282 7.99982C19.5115 9.01015 20.5938 9.55283 21.6841 9.49631C21.8903 10.2964 22 11.1353 22 11.9998C22 12.8643 21.8903 13.7032 21.6841 14.5033C20.5938 14.4468 19.5115 14.9895 18.9282 15.9998C18.3453 17.0094 18.4159 18.2169 19.0088 19.1326C17.8165 20.3043 16.3317 21.1794 14.674 21.6383C14.1778 20.6658 13.1667 19.9998 12 19.9998C10.8333 19.9998 9.8222 20.6658 9.32603 21.6383C7.66832 21.1794 6.18354 20.3043 4.99121 19.1326C5.58406 18.2169 5.65467 17.0094 5.0718 15.9998C4.48848 14.9895 3.40622 14.4468 2.31595 14.5033C2.1097 13.7032 2 12.8643 2 11.9998ZM6.80385 14.9998C7.43395 16.0912 7.61458 17.3459 7.36818 18.5236C7.77597 18.8138 8.21005 19.0652 8.66489 19.2741C9.56176 18.4712 10.7392 17.9998 12 17.9998C13.2608 17.9998 14.4382 18.4712 15.3351 19.2741C15.7899 19.0652 16.224 18.8138 16.6318 18.5236C16.3854 17.3459 16.566 16.0912 17.1962 14.9998C17.8262 13.9085 18.8225 13.1248 19.9655 12.7493C19.9884 12.5015 20 12.2516 20 11.9998C20 11.7481 19.9884 11.4981 19.9655 11.2504C18.8225 10.8749 17.8262 10.0912 17.1962 8.99982C16.566 7.90845 16.3854 6.65378 16.6318 5.47605C16.224 5.18588 15.7899 4.93447 15.3351 4.72552C14.4382 5.52844 13.2608 5.99982 12 5.99982C10.7392 5.99982 9.56176 5.52844 8.66489 4.72552C8.21005 4.93447 7.77597 5.18588 7.36818 5.47605C7.61458 6.65378 7.43395 7.90845 6.80385 8.99982C6.17376 10.0912 5.17754 10.8749 4.03451 11.2504C4.01157 11.4981 4 11.7481 4 11.9998C4 12.2516 4.01157 12.5015 4.03451 12.7493C5.17754 13.1248 6.17376 13.9085 6.80385 14.9998ZM12 14.9998C10.3431 14.9998 9 13.6567 9 11.9998C9 10.343 10.3431 8.99982 12 8.99982C13.6569 8.99982 15 10.343 15 11.9998C15 13.6567 13.6569 14.9998 12 14.9998ZM12 12.9998C12.5523 12.9998 13 12.5521 13 11.9998C13 11.4475 12.5523 10.9998 12 10.9998C11.4477 10.9998 11 11.4475 11 11.9998C11 12.5521 11.4477 12.9998 12 12.9998Z"></path></svg>
+                         Settings</div>
+                        <div class="allupg"> 
+                    <div class="upgrade-button">
+                <img src="671416-200.png" alt="Upgrade to PRO">
+                <div class="piown">
+                <div class="uv">Upgrade to <strong>PRO</strong> for more resources.</div>
+                <button>Upgrade</button>
+            </div>
+        </div>
+              </div>
+
+                </div>
+            
+                <div class="like">
+                    <div class="header">
+                    <h1>Dashboard</h1>
+                    <div class="sea">20 Sep 2019, Friday
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"></path></svg>
+                    </div>
+                </div>
+                
+                  <div class="dashboard">
+                
+                    <div class="welcome">
+                      <div class="welcome-text">
+                        <h1>Welcome back, Anna!</h1>
+                        <p>You've learned 80% of your goal this week! <br>Keep it up and improve your results!</p>
+                      </div>
+                      <img src="image-removebg-preview.png" alt="User avatar">
+                    </div>
+                
+                    <div class="main">
+                
+                      <div class="latest-results">
+                        <div class="more">
+                            <h2>Latest results</h2>
+                            <div class="more-link">More →</div>
+                          </div>
+                          <hr style="border: 1px solid #e4e4e4; width: 280px;">
+                        
+                          <div class="alltext">
+                            <div class="text">Unit 5 - Technology</div>
+                            <div class="progress">
+                                <div class="progress1">
+                                    <div class="progress2"></div>
+                                </div>          
+                                <div class="percent">25%</div>
+                            </div>
+                        </div>
+                        <hr style="border: 1px solid #e4e4e4; width: 280px;">
+                
+                        <div class="alltext">
+                            <div class="text1">Unit 12 - Ecology</div>
+                            <div class="progress">
+                                <div class="progress1">
+                                    <div class="progresss2"></div>
+                                </div>          
+                                <div class="percent4">44%</div>
+                            </div>
+                        </div>
+                        <hr style="border: 1px solid #e4e4e4; width: 280px;">
+                
+                        <div class="alltext">
+                            <div class="text2">Unit 9 - Real estate</div>
+                            <div class="progress">
+                                <div class="progress1">
+                                    <div class="progressss2"></div>
+                                </div>          
+                                <div class="percent4">40%</div>
+                            </div>
+                        </div>
+                        <hr style="border: 1px solid #e4e4e4; width: 280px;">
+                
+                
+                        <div class="alltext">
+                            <div class="text3">Unit 8 - Education</div>
+                            <div class="progress">
+                                <div class="progress1">
+                                    <div class="progresssss2"></div>
+                                </div>          
+                                <div class="percent">15%</div>
+                            </div>
+                        </div>
+                        <hr style="border: 1px solid #e4e4e4; width: 280px;">
+                
+                
+                        <div class="alltext">
+                            <div class="text4">Unit 16 - Job market</div>
+                            <div class="progress">
+                                <div class="progress1">
+                                    <div class="progressssss2"></div>
+                                </div>          
+                                <div class="percent4">76%</div>
+                            </div>
+                        </div>
+                        </div>
+                
+                        <div class="spendtime">
+                          <div class="main-head">
+                      <h2>Time spent on learning</h2>
+                      <div class="week">
+                          <div>Last week</div> 
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"></path></svg>
+                      </div>
+                          </div>
+                  
+                      <div class="chart-container">
+                          <div class="bar">
+                              <div class="day">Mon</div>
+                              <div class="time">
+                                  <div class="time4"></div>
+                                  <div class="time1"></div>
+                                  <div class="time3"></div>
+                              </div>
+                          </div>
+                          <div class="bar">
+                              <div class="day">Tue</div>
+                              <div class="time">
+                                  <div class="time5"></div>
+                                  <div class="time2"></div>
+                              </div>
+                          </div>
+                          <div class="bar">
+                              <div class="day">Wed</div>
+                              <div class="time">
+                                  <div class="time8"></div>
+                                  <div class="time6"></div>
+                                  <div class="time7"></div>
+                  
+                              </div>  
+                          </div>
+                          <div class="bar">
+                              <div class="day">Thu</div>
+                              <div class="time">
+                                  <div class="time10"></div>
+                                  <div class="time9"></div>
+                  
+                  
+                              </div>
+                          </div>
+                          <div class="bar">
+                              <div class="day">Fri</div>
+                              <div class="time">
+                                  <div class="time12"></div>
+                                  <div class="time11"></div>
+                  
+                  
+                              </div>
+                          </div>
+                          <div class="bar">
+                              <div class="day">Sat</div>
+                              <div class="time">
+                                  <div class="time13"></div>
+                                  <div class="time14"></div>
+                              </div>
+                          </div>
+                          <div class="bar">
+                              <div class="day">Sun</div>
+                              <div class="time">
+                              <div class="time17"></div>
+                              <div class="time15"></div>
+                              <div class="time16"></div>
+                              
+                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                  
+                      <div class="legend">
+                          <div class="legend-item"> 
+                              <div class="red"></div>
+                              Vocabulary
+                          </div>
+                          <div class="legend-item">
+                              <div class="black"></div>
+                              Grammar
+                          </div>
+                          <div class="legend-item">
+                              <div class="blue"></div>
+                              Listening
+                          </div>
+                          <div class="legend-item">
+                              <div class="gray"></div>
+                              Writing
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                
+                  <div class="more2">
+                    <h4>Latest results</h4>
+                    <div class="more-link2">More →</div>
+                  </div>
+                <div class="allcourse">
+                <div class="courses-container">
+                    <div class="course-card">
+                        <div class="levbox">B2</div>
+                    </div>
+                        <div class="level">
+                        <div class="cl">Business English</div>
+                        <div class="cla">Grammar
+                            <div class="arr">→</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-container1">
+                    <div class="course-card">
+                        <div class="levbox1">B2</div>
+                    </div>
+                        <div class="level">
+                        <div class="cl">Common English</div>
+                        <div class="cla1">Phrasal Verb
+                            <div class="arr">→</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-container2">
+                    <div class="course-card">
+                        <div class="levbox2">C1</div>
+                    </div>
+                        <div class="level">
+                        <div class="cl">Business Spanish</div>
+                        <div class="cla2">Vocabulary
+                            <div class="arr">→</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                  </div>
+                </div>
+
+
+                <div class="profile-card">
+                    <div class="logsv">
+                    <div class="logout">logout</div>
+                    <div class="svgr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 11V8L15 12L10 16V13H1V11H10ZM2.4578 15H4.58152C5.76829 17.9318 8.64262 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C8.64262 4 5.76829 6.06817 4.58152 9H2.4578C3.73207 4.94289 7.52236 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C7.52236 22 3.73207 19.0571 2.4578 15Z"></path></svg></div>
+                    </div>
+                
+                    <div class="profile">
+                      <img src="fepf.png" alt="Profile Picture">
+                      <div class="stats2">+</div>
+                      <h2>Anna Morrison</h2>
+                      <div class="bio">Student</div>
+                    </div>
+                
+                    <div class="languages">
+                      <div class="language">
+                        <div class="language-level">
+                          <div class="badge">B2</div>
+                          <div>
+                          <div>English</div>
+                          <div class="inter2">High-intermediate</div>
+                        </div>
+                        </div>
+                
+                        <div class="progress-bar">
+                          <div class="borderline"></div>
+                        </div>
+                      </div>
+                      <div class="language">
+                        <div class="language-level">
+                          <div class="badge">C1</div>
+                          <div>
+                          <div>Spanish</div>
+                          <div class="inter2">Advanced</div>
+                        </div>
+                        </div>
+                
+                        <div class="progress-bar1">
+                          <div class="bordline"></div>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <div class="reminders">
+                      <div class="allremind">
+                      <h3>Reminders</h3>
+                      <div class="stats">
+                      <div class="stats1"></div>
+                 
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 17H22V19H2V17H4V10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10V17ZM18 17V10C18 6.68629 15.3137 4 12 4C8.68629 4 6 6.68629 6 10V17H18ZM9 21H15V23H9V21Z"></path></svg>
+                      </div>
+                    </div>
+                      <div class="reminder-item">
+                        <div class="badge1">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22C6.47715 22 2 17.5228 2 12 2 6.47715 6.47715 2 12 2 17.5228 2 22 6.47715 22 12 22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12 20 7.58172 16.4183 4 12 4 7.58172 4 4 7.58172 4 12 4 16.4183 7.58172 20 12 20ZM13 10.5V15H14V17H10V15H11V12.5H10V10.5H13ZM13.5 8C13.5 8.82843 12.8284 9.5 12 9.5 11.1716 9.5 10.5 8.82843 10.5 8 10.5 7.17157 11.1716 6.5 12 6.5 12.8284 6.5 13.5 7.17157 13.5 8Z"></path></svg>
+                        </div>
+                        <div>
+                          <div>Eng - Vocabulary test</div>
+                          <div class="inter2">24 Sep 2019, Friday</div>
+                        </div>
+                      </div>
+                      <div class="reminder-item">
+                        <div class="badge2">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path></svg>
+                        </div>
+                        <div>
+                          <div>Eng - Send grammar homework</div>
+                          <div class="inter2">29 Sep 2019, Wednesday</div>
+                        </div>
+                      </div>
+                
+                      <div class="reminder-item">
+                        <div class="badge2">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path></svg>
+                
+                        </div>
+                        <div>
+                          <div>Spanish - Send essay</div>
+                          <div class="inter2">05 Oct 2019, Monday</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="prof">
+                      <div class="pro-bio">Spanish - reading task</div>
+                    </div>
+                  </div>
+        </div>
+    </div>
+</body>
+</html>
